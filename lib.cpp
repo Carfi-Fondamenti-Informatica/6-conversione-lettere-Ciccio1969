@@ -15,8 +15,7 @@ bool Vero_o_Falso (char a) {
 char Trasformazione ( char a) {
     if (a >= 65 and a <= 90) {
         return a+32;
-    } else {
+    } else if ( a >= 97 and a <= 122) {
         return a-32;
     }
 }
-
